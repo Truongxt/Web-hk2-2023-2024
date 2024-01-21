@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: aqua;
+            margin: 0px auto;
+        }
+        
+        .header {
+            background-image: url(../img/iuh.jfif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100px;
+            width: 100%;
+        }
+        
+        .wrapper .nav ul {
+            display: inline-flex;
+            list-style-type: none;
+        }
+        
+        .wrapper .nav ul li {
+            height: 15px;
+            width: 130px;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 30px;
+            text-align: center;
+            position: relative;
+            background-color: bisque;
+        }
+        
+        .wrapper .nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+        }
+        
+        .wrapper .nav ul li:hover {
+            background: blue;
+        }
+        
+        .wrapper .nav ul li .sub-menu {
+            display: none;
+        }
+        
+        .wrapper .nav ul li:hover .sub-menu {
+            display: block;
+            position: absolute;
+            margin: 10px;
+            left: -70px;
+        }
+        
+        .wrapper .nav ul li .sub-menu li .sub-menu2 {
+            display: none;
+        }
+        
+        .wrapper .nav ul li:hover .sub-menu li:hover .sub-menu2 {
+            display: block;
+            position: absolute;
+            margin: 10px;
+            left: 100px;
+            top: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header"></div>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="">ITEM1</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ITEM1.1</a>
+                            <ul class="sub-menu2">
+
+                                <li><a href="">ITEM1.1.1</a></li>
+                                <li><a href="">ITEM1.1.2</a></li>
+                                <li><a href="">ITEM1.1.3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">ITEM1.2</a></li>
+                        <li><a href="">ITEM1.3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ITEM2</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ITEM2.1</a></li>
+                        <li><a href="">ITEM2.2</a></li>
+                        <li><a href="">ITEM2.3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ITEM3</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ITEM3.1</a>
+                            <ul class="sub-menu2">
+
+                                <li><a href="">ITEM3.1.1</a></li>
+                                <li><a href="">ITEM3.1.2</a></li>
+                                <li><a href="">ITEM3.1.3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">ITEM3.2</a></li>
+                        <li><a href="">ITEM3.3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ITEM4</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ITEM4.1</a></li>
+                        <li><a href="">ITEM4.2</a></li>
+                        <li><a href="">ITEM4.3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">ITEM5</a>
+                    <ul class="sub-menu">
+                        <li><a href="">ITEM5.1</a></li>
+                        <li><a href="">ITEM5.2</a></li>
+                        <li><a href="">ITEM5.3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <aside></aside>
+            <div class="section1"></div>
+            <div class="section2"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
