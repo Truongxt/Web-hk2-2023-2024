@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 1500px;
+            width: auto;
+            margin: 0px auto;
+        }
+        
+        body {
+            background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg);
+            background-size: cover;
+        }
+        
+        header {
+            height: 100px;
+            width: auto;
+            background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1706054400&semt=sph);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        header form {
+            position: absolute;
+            right: 20px;
+        }
+        
+        .wrapper .nav {
+            width: auto;
+            height: 200px;
+            background-color: aqua;
+            position: relative;
+        }
+        
+        .menu li {
+            background-color: darkslategray;
+            height: 70px;
+            width: 150px;
+            float: left;
+            position: absolute;
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        .menu {
+            position: absolute;
+            left: 120px;
+            top: 50px;
+        }
+        
+        .menu li a {
+            color: beige;
+            text-decoration: none;
+        }
+        
+        .menu li:nth-child(1) {
+            left: 200px;
+        }
+        
+        .menu li:nth-child(2) {
+            left: 370px;
+        }
+        
+        .menu li:nth-child(3) {
+            left: 540px;
+        }
+        
+        .menu li:nth-child(4) {
+            left: 710px;
+        }
+        
+        .menu li:nth-child(5) {
+            left: 880px;
+        }
+        
+        .menu li:hover {
+            background: red;
+        }
+        
+        label {
+            color: black;
+        }
+        
+        .wrapper .content .v1 {
+            height: 200px;
+            width: calc(100%/3);
+            background-color: bisque;
+            float: left;
+        }
+        
+        .wrapper .content .v2 {
+            height: 200px;
+            width: calc(100%/3);
+            background-color: rosybrown;
+            float: left;
+        }
+        
+        .wrapper .content .v3 {
+            height: 200px;
+            width: calc(100%/3);
+            background-color: hotpink;
+            float: left;
+        }
+        
+        .wrapper .footer {
+            background: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+            height: 200px;
+            background-size: cover;
+        }
+        
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <form action="">
+                <label for="timkiem">Tìm Kiếm:</label>
+                <input type="search" id="timkiem">
+            </form>
+        </header>
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="">ITEM1</a></li>
+                <li><a href="">ITEM2</a></li>
+                <li><a href="">ITEM3</a></li>
+                <li><a href="">ITEM4</a></li>
+                <li><a href="">ITEM5</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="v1">
+                <form action="">
+                    <label for="">Họ tên:</label>
+                    <input type="text">
+                    <br>
+                    <label for="">Mật khẩu:</label>
+                    <input type="password">
+                </form>
+            </div>
+            <div class="v2">
+                <form action="">
+                    <label for="">Địa chỉ:</label>
+                    <input type="text">
+                </form>
+            </div>
+            <div class="v3">
+                <form action="">
+                    <label for="">Họ tên:</label>
+                    <input type="text">
+                    <br>
+                    <label for="">Mật khẩu:</label>
+                    <input type="password">
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
