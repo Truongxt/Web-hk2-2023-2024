@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+        }
+        /* Header */
+        .header .header-one h2 {
+            color: #C9959F;
+            text-align: center;
+            text-shadow: 6px 7px 5px #77325a;
+            font-weight: 600;
+
+        }
+
+        .header .header-two {
+            background: #EC9496;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header .header-two .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .header .header-two .menu li {
+            border-left: 1px solid blue;
+            padding: 20px;
+        }
+
+        .header .header-two .menu li a {
+            text-decoration: none;
+            color: white;
+            margin: 0px 15px;
+        }
+        .header .header-two .menu li:hover{
+            background-color: aqua;
+        }
+        .header .header-two img {
+            height: 25px;
+        }
+
+        .header .header-two .form {
+            border-left: 1px solid blue;
+            height: 100%;
+        }
+        .header .header-two .menu li:nth-child(1)
+        {
+            border: none;
+        }
+        /* end header */
+
+
+
+        /* content */
+        .content{
+            display: flex;
+        }
+        .content .menu-left{
+            display: flex;
+            flex-direction: column;
+        }
+        .content .menu-left img{
+            height: 100px;
+            background-size: contain;
+            border-radius: 50%;
+            box-shadow: 13px 19px 28px -3px #EC9496;
+                }
+        .content .menu-left ul{
+            list-style: none;
+            padding: 0px;
+        }
+        .content .menu-left ul li{
+            background-color: #EC9496;
+            margin-top: 20px;
+            padding-right: 50px;
+            padding-left: 20px;
+            border-radius: 15px;
+        }
+        .content .primary .tittle-stater h2{
+            background-color: #EC9496;
+            color:rgb(241, 58, 58);
+            text-align: center;
+        }
+        .content .primary .tittle-stater ul li::after{
+            content:"(V)";
+            color: red;
+        }
+        .content .primary{
+            color: black;
+            margin: 0px 30px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        /* end content */
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header-one">
+            <h2>EXAMPLE CAFE MENU</h2>
+        </div>
+        <div class="header-two">
+            <ul class="menu">
+                <li><a href=""><img src="icons8-home-50.png" alt=""></a></li>
+                <li class="vertical"><a href="">STATER</a></li>
+                <li class="vertical"><a href="">MAIN COURSE</a></li>
+                <li class="vertical"><a href="">DESSERTS</a></li>
+                <li>
+                    <form action="">
+                        <input type="text">
+                        <button>Go</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- content -->
+    <div class="content">
+        <div class="menu-left">
+            <ul>
+                <li>CAFE CHON</li>
+                <li>CAFE VIET</li>
+                <li>CAFE TRUNG QUOC</li>
+                <li>CAFE MY</li>
+                <li>CAFE KHAC</li>
+            </ul>
+            <img src="company.png" alt="">
+        </div>
+        <div class="primary">
+            <div class="tittle-stater">
+                <h2>STATER</h2>
+                <ul>
+                    <li>Chesnus and Mushroom</li>
+                    <li>Glow Cheesse</li>
+                    <li>HONEY SOY CHICKEN</li>
+                    <li>Seafood</li>
+                </ul>
+                <p>Back to top</p>
+            </div>
+            <div class="tittle-dessert">
+                <h2>DESSERTS</h2>
+                <ul>
+                    <li>Lemon</li>
+                    <li>Chocolate</li>
+                    <li>Pecan</li>
+                    <li>Selection of fine Cheesse</li>
+                </ul>
+                <p>Back to top</p>
+            </div>
+        </div>
+        <div class="menu-right"></div>
+    </div>
+    <!-- end content -->
+</body>
+
+</html>
