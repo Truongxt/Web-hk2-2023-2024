@@ -63,6 +63,9 @@ aside h1{
     color: red;
     text-shadow: 4px 5px 7px red;
 }
+aside img:hover{
+    transform: rotate(45deg);
+}
 footer {
     width: 100%;
     background-color: #CBCC66;
