@@ -69,7 +69,6 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
 .wrapper nav .top_menu{
     display: flex;
     list-style: none;
