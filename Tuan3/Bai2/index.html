@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+        }
+        .main{
+            color: black;
+        }
+        .wrapper .header{
+            background-color: #29507B;
+        }
+            .wrapper .header{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+            }
+            .wrapper .header .header-image{
+                height: 100px;
+                display: flex;
+                margin: 20px;
+            }
+            .wrapper .header .header-image h2 {
+                font-size: 30px;
+            }
+            .wrapper .search-menu{
+                display: flex;
+                position: relative;
+                flex-direction: column;
+            }
+            .wrapper .search-menu .search{
+                position: absolute;
+                right: 5px;
+            }
+            .wrapper  .header .menu {
+                position: absolute;
+                bottom: 0px;
+                left: 400px;
+            }
+            .wrapper  .header .menu ul{
+                display: flex;
+                list-style: none;
+                padding: 0px;
+            }
+            .wrapper  .header .menu ul li{
+                margin-right: 50px;
+                padding: 10px 30px;
+                background-color: #3C70AD;
+            }
+            .wrapper  .header .menu ul li:hover{
+                background-color: yellow    ;
+            }
+            .wrapper  .header .menu ul li a{
+                text-decoration: none;
+                color: white;
+                size: 20px;
+            }
+            .wrapper .main .content{
+                justify-content: space-evenly;
+                display: flex;
+            }
+            .wrapper .main .content .form-content{
+                width: 40%;
+                        }
+            .wrapper .main .content .form-content .heading-desc{
+                text-shadow: 3px 6px 9px rgba(0,128,0,0.6);
+                color: red;
+            }
+            .wrapper .main .content .flowerBox{
+                width: 30%;
+                font-size: 16px;
+                margin-left: 50px;
+            }
+           .wrapper .main .title{
+                font-weight: 100;
+                border-bottom: 2px dotted black;
+                font-size: 25px;
+           }
+            .wrapper .main .content .discount{
+                width: 30%;
+                text-align: right;
+                background-color: #F8F8F8;
+            }
+            .wrapper .main .content .discount p{
+                text-align: left;
+            }
+            .wrapper .main .content .discount img{
+                width: auto;
+                height: 150px;
+                width: auto;
+            }
+            .wrapper .main .content .discount a{
+                text-align: right;
+            }
+            .wrapper .footer {
+                background-color: #23334B;
+            }
+            .wrapper .footer p {
+                padding: 8px;
+            }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+                <div class="header-image">
+                    <img src="flower.png" alt="">
+                    <div class="desc">
+                    <h2>FlowerBox 360</h2>
+                    <p>...to get your daily close of luxury roses!</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Gift Baskets</a></li>
+                        <li><a href="#">Flowers Services</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="search-menu">
+                    <div class="search">
+                        <form action="">
+                            <table>
+                                <tr>
+                                    <td><input type="text" placeholder="Search this site...."></td>
+                                    <td><button>GO</button></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <div class="main">
+            <p class="title" style="width: 930px;">Why Not Contact Us Today!</p>
+            <div class="content">
+                <div class="form-content">
+                    <span class="heading-desc">For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest
+                        quality flowers found on online, but thatt you can do so at a great value.</span>
+                        <form action="">
+                            <table>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>Email:</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>Telephone:</td>
+                                    <td>Subject:</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+
+                                </tr>
+                                <tr>
+                                    <td>Message:</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><textarea name="" id="" cols="46" rows="5"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><button>Submit</button> <button>Reset</button></td>
+                                </tr>
+                            </table>
+                        </form>
+                </div>
+                <div class="flowerBox">
+                    <h2 style="width: 250px; border-bottom: 2px dotted black;">FlowerBox 360 info?</h2>
+                    <span>Openationg Hours:</span>
+                    <br>
+                    <br>
+                    <span>Monday-Friday:9:000am-5:00pm</span>
+                    <br>
+                    <span>Monday-Friday:9:000am-5:00pm</span>
+                    <br>
+                    <span>Saturday:9:00am-1.00pm.</span>
+                    <br>
+                    <span>Sunday:CLosed (No Deliveries)</span>
+                    <br>
+                    <span>ORDER ONLINE 24/7</span>
+                    <br>
+                    <br>
+                    <br>
+                    <span> Software Engineering Dept.</span>
+                    <br>
+                    <span>Information Technology Faculty</span>
+                    <br>
+                    <span>First Floor, H Building</span>
+                    <br><br><br>
+                    <span>12 Nguyen Van Bao, Ward 4,</span>
+                    <br>
+                    <span>Go Vap District, Ho Chi Minh City</span>
+                    <br>
+                    <span>Tel: 0283.8940 390</span>
+                    <br>
+                    <span>Fax: 0283.9940 954</span>
+                </div>
+                <div class="discount">
+                    <h2 style="width: 200px; border-bottom: 2px dotted black;">Discount & Special</h2>
+                    <img src="rose.png" alt="">
+                    <p>FlowerBox 360 offers many great discounts throught the year, 
+                        from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderfull troppps!</p>
+                        <a href="#">Read more >> </a>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <p><b>Copyright © - All rights Reverved - </b> Software Engineering Department - Industrial University of Ho Chi Minh City</p>
+    </div>
+    </div>
+</body>
+</html>

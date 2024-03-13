@@ -1,0 +1,52 @@
+body{
+    background: url(background.jpg);
+    color: white;
+}
+
+.wrapper .link ul{
+    list-style: none;
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.wrapper .link ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.wrapper .link ul li{
+    margin-bottom: 20px;
+}
+.wrapper .link ul li:hover{
+    background-color: green;
+}
+.wrapper .link{
+    width: 30%;}
+.wrapper .content .desc {
+    display: flex;
+}
+.wrapper .content{
+    margin: 0px 30px;
+    border-left: 1px solid green;
+    text-indent: 15px;
+}
+.wrapper .link-content{
+    display: flex;
+}
+.wrapper .content .welcome{
+    background-color: green;
+    width: 910px;
+    font-size: 35px;
+    padding-left: 70px;
+}
+.wrapper .content .hours h2{
+    background-color: green;
+    width: 300px;
+}
+.wrapper .content .directions h2{
+    background-color: green;
+    width: 300px;
+}
+.wrapper .footer{
+    border-top: 1px solid green;
+    text-align: center;
+}

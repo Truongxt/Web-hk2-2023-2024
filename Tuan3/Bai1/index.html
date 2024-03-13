@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: white;
+            background-color: #6FC8EB;
+        }
+        .wrapper .header .menu ul{
+            list-style: none;
+            display: flex;
+            padding: 0px;
+        }
+        .wrapper .header .menu ul li{
+            margin: 10px;
+            font-weight: 500;
+        }
+        .wrapper .header .menu ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .wrapper .header{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 5px dotted white;
+            align-items: center;
+        }
+        .wrapper .header .text h2{
+            color: white;
+            text-shadow: -1px 0px 15px rgba(0,0,255,1);
+        }
+        .wrapper .main{
+            display: flex;
+            margin-bottom: 50px;
+        }
+        .wrapper .main .content{
+            width: 50%;
+            margin-right: 40px;
+        }
+        .wrapper .main .image{
+            width: 50%;
+        }
+        .wrapper .main .content table button{
+            border: 3px dotted  rgba(0,0,255,1);
+            font-size: 15px;
+            margin-left: 5px;
+        }
+        .wrapper .main .image img{
+            height: 350px;
+        }
+        .wrapper .main .image .img-head,.img-desc{
+            color: rgba(0,0,255,1) ;
+            text-shadow: -1px 0px 15px rgba(0,0,255,1);
+            text-indent: 50px;
+            
+        }
+        .wrapper .main .image .img-head {
+            margin: 0px;
+            font-size: 35px;
+        }
+        .wrapper .main .image .img-desc{
+            margin: 0px;
+            font-size: 26px;
+            text-indent: 70px;
+            font-style: italic;
+        }
+        .footer{
+            text-align: center;
+            font-size: 15px;
+            border-top: 5px dotted white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+            <div class="header">
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="text">
+                    <h2>Sky World</h2>
+                </div>
+            </div>
+            <div class="main">
+                <div class="content">
+                    <h2>Registration Information</h2>
+                    <p>Start your travel planning now with our on-line tour regstration
+                        form. Just tell us a little about yourself and your group and one of our travel
+                        experts will contact  you  to create the perfect custom built for your group's needs .
+                    </p>
+                    <table>
+                        <form action="">
+                        <tr>
+                            <td>Title</td>
+                            <td>
+                                <select name="" id="">
+                                        <option value="mr">Mr</option>
+                                        <option value="mrs">Mrs</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Full Name*</td>
+                            <td><input type="text" placeholder="First Name" id="fullName"></td>
+                        </tr>
+                        <tr>
+                            <td>Mailling Address</td>
+                            <td><input type="text" placeholder="Mailling Address" id="address"></td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td><input type="text" placeholder="City" id="city"></td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td><input type="text" placeholder="Country" id="country"></td>
+                        </tr>
+                        <tr>
+                            <td>Specific questions or <br>resquests about yout tour</td>
+                            <td><textarea name="" id="question" cols="35" rows="6" placeholder="Specific questions or br about yout tour"></textarea></td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td><button>Submit</button> <button>Reset</button></td>
+                        </tr>
+                    </form>
+                    </table>
+                </div>
+                <div class="image">
+                    <img src="sky.png" alt="">
+                    <h2 class="img-head">Your've arrived.</h2>
+                    <p class="img-desc">Journeys as great as the destinations.</p>
+                </div>
+            </div>
+            <div class="footer">
+                <h3>2016 Sky World Tours. All rights reserved.</h3>
+                <h3>COntact information: Student Name | StudentID | Testing Date </h3>
+            </div>
+    </div>
+</body>
+</html>

@@ -87,12 +87,12 @@
             padding-left: 20px;
             border-radius: 15px;
         }
-        .content .primary .tittle-stater h2{
+        .content .primary .tittle h2{
             background-color: #EC9496;
             color:rgb(241, 58, 58);
             text-align: center;
         }
-        .content .primary .tittle-stater ul li::after{
+        .content .primary .tittle ul li::after{
             content:"(V)";
             color: red;
         }
@@ -103,7 +103,42 @@
             flex-direction: column;
             width: 50%;
         }
+        .content .primary .tittle .login{
+            font-size: 20px;
+            margin: 20px;
+            padding: 5px;
+        }
+        .content .primary .tittle select{
+            font-size: 20px;
+            margin: 20px;
+            padding: 5px;
+            width: 39%;
+        }
+        .content .primary .tittle button{
+            margin:20px;
+        }
+        .content .menu-right .box img{
+            width: 350px;
+        }
+        .content .menu-right{
+            width: 35%;
+            background-color: black;
+            height: 750px;
+        }
+        .content .menu-right .box{
+            position: relative;
+            left: 20px;
+        }
         /* end content */
+        /* footer */
+        footer{
+            background-color: pink;
+            text-align: center;
+        }
+        footer h2{
+            padding: 20px;
+        }
+        /* end footer */
     </style>
 </head>
 
@@ -142,7 +177,7 @@
             <img src="company.png" alt="">
         </div>
         <div class="primary">
-            <div class="tittle-stater">
+            <div class="tittle">
                 <h2>STATER</h2>
                 <ul>
                     <li>Chesnus and Mushroom</li>
@@ -152,7 +187,7 @@
                 </ul>
                 <p>Back to top</p>
             </div>
-            <div class="tittle-dessert">
+            <div class="tittle">
                 <h2>DESSERTS</h2>
                 <ul>
                     <li>Lemon</li>
@@ -162,10 +197,49 @@
                 </ul>
                 <p>Back to top</p>
             </div>
+            <div class="tittle">
+                <h2>Information</h2>
+                <form action="">
+                    <input type="text" placeholder="First Name" class="login">
+                    <input type="text" placeholder="Last Name" class="login">
+                    <input type="text" placeholder="Email" class="login">
+                    <input type="text" placeholder="First Name" class="login">
+                    <select name="" id="">
+                        <option value="">USA</option>
+                        <option value="">VietNam</option>
+                    </select>
+                    <input type="radio" id="radio-vn">
+                    <label for="radio-vn">VietNamese</label>
+                    <input type="radio" id="radio-usa">
+                    <label for="radio-usa">USA</label>
+                    <textarea name="" id="" cols="75" rows="3" style="position: relative; right: -19px; margin-bottom: 20px;">convert</textarea>
+                    <br>
+                    <button>Submit</button>
+                    <button>Cancel</button>
+                </form>
+            </div>
         </div>
-        <div class="menu-right"></div>
+        <div class="menu-right">
+            <h2>Event</h2>
+            <div class="box">
+                <h3>Regular Meeting</h3>
+                <img src="meeting.png" alt="">
+                <p>Host your regular team meetings or activities in the comfort <br>of your own private room....<a href="#">Read more</a></p>
+
+            </div>
+            <div class="box">
+                <h3>Product Launches</h3>
+                <img src="company.png" alt="">
+                <p>Launch your product with ease in a space  that truly fits <br> its image... <a href="">Read more</a>
+                </p>
+                
+            </div>
+        </div>
     </div>
     <!-- end content -->
+    <footer>
+        <h2>ABC COMPANY-123456780-abcoffe@gmail.com</h2>
+    </footer>
 </body>
 
 </html>

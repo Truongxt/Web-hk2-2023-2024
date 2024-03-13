@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: #AD4C15;
+        }
+        .wrapper .header{
+            background-color: #AD4C15;
+        }
+        .wrapper .header h2{
+          padding: 10px;
+          margin: 0px;
+        }
+        .wrapper .menu ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+        }
+        .wrapper .menu {
+            border-bottom: 2px solid black;
+        }
+        .wrapper .menu ul li a{
+            text-decoration: none;
+            color: #AD4C15;
+        }
+        .wrapper .menu ul li{
+            margin: 0px 20px;
+        }
+        .wrapper img{
+            width: 100%;
+            height: 100px;
+            background-repeat: repeat;
+            background-size: contain;
+        }
+        .wrapper .main .content form input{
+            border: none;
+            border-bottom:1px solid ;
+            width: 400px;
+            margin: 20px;
+        }
+        .wrapper .main .content .title{
+            font-size: 30px;
+            font-style: italic;
+        }
+        .wrapper .main .content p{
+            font-size: 18px;
+            text-indent: 30px;
+        }
+        .wrapper .main{
+            display: flex;
+
+        }
+        .wrapper .main .content{
+            width: 97%;
+            border-right: 1px solid;
+        }
+        .wrapper .main .content form  button{
+            margin: 20px;
+            background-color: #7F8000;
+            color: white;
+            padding: 10px;
+            border: 0px;
+        }
+        .wrapper .main .tab .link ul{
+            list-style: square;
+            margin-left: 45px;
+        }
+        .wrapper .main .tab .link ul li{
+            
+        }
+        .wrapper .main .tab .link .title{
+            text-indent: 30px;
+        }
+        .wrapper .main .tab .link{
+            background-color: #FAEBD8;
+        }
+        .wrapper .main .tab .link ul li a{
+            text-decoration: none;
+            color: #AD4C15;
+
+        }
+        .wrapper .main .tab .more-info .title{
+            text-indent: 30px;
+        }
+        .wrapper .main .tab .more-info img{
+            height: 80px;
+            width: 70px;
+        }
+        .wrapper .main .tab .more-info .img-content{
+            display: flex;
+        }
+        .wrapper .main .tab .more-info .img-content img{
+            max-width: 50%;
+        }
+        .wrapper .main .tab .more-info .img-content p{
+            margin-left: 20px;
+        }
+        .wrapper .footer{
+            border: 10px solid transparent; 
+             border-image: url(footer.png) 30% stretch;
+             text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h2>AUTUMN TRAVEL COMPANY</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Order</a></li>
+            </ul>
+        </div>
+        <img src="Screenshot 2024-03-05 110224.png" alt="">
+        <div class="main">
+                <div class="content">
+                        <h2 class="title">
+                            Sign up for membership benefits
+                        </h2>
+                        <p>Our philisophical are transparency, respect,
+                            formality and responsibility. Our stimulus is your enthusiasm. 
+                            Our motto is your satisfation.</p>
+                            <form action="">
+                                <input type="text" placeholder="UserName">
+                                <br>
+                                <input type="text" name="" id="" placeholder="E-Mail">
+                                <br>
+                                <input type="text" name="" id="" placeholder="Password">
+                                <br>
+                                <input type="text" name="" id="" placeholder="Retype Password">
+                                <br>
+                                <button>SIGN ME UP</button>
+                            </form>
+                </div>
+                <div class="tab">
+                        <div class="link">
+                            <h2 class="title">Links</h2>
+                            <ul>
+                                <li><a href="">Make your Own Tour</a></li>
+                                <li><a href="">	Maldives Tours</a></li>
+                                <li><a href="">Nature & Adventure</a></li>
+                                <li><a href="">Europe Tours</a></li>
+                                <li><a href="">Rusia Tours</a></li>
+                            </ul>
+                        </div>
+                        <div class="more-info">
+                            <h2 class="title">More info</h2>
+                            <div class="img-content">
+                                <img src="leaf.png" alt=""> 
+                            <p>Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world</p>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <div class="footer">
+                <h2>	2017 Software Engineering Department Test Date 16 Sep 2017</h2>
+        </div>
+    </div>
+</body>
+</html>
