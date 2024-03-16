@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+        <form action="" class="was-validated">
+                <div class="form-row">
+                        <div class="col-md-4 form-group">
+                            <label for="firstName" class="has-validation">First Name</label>
+                            <br>
+                            <input type="text" class="has-validation" required class="firstName" placeholder="FirstName">
+                            <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label for="lastName" class="has-validation">Last Name</label>
+                            <br>
+                            <input type="text" class="has-validation" required id="lastName" placeholder="LastName">
+                            <div class="valid-feedback">
+                                Looks good!
+                              </div>
+                        </div>
+                        <div class="col-md-4 form-group">
+                                <label for="" class="col-12 p-0">UserName</label><br>
+                                    <div class="form-inline">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">@</div>
+                                </div>
+                                <input type="text" placeholder="UserName" class="has-validation" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="" class="form-check-label">City</label>
+                                    <input type="text" class="form-control" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                  </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="" class="form-check-label">State</label>
+                                <input type="text" class="form-control" required placeholder="State">
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                              </div>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="" class="form-check-label">ZIP</label>
+                            <input type="text" class="form-control" required placeholder="State">
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                          </div>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="form-group">
+                            <input type="checkbox" required>
+                            <label for="" class="form-check-label"> Agree to terms and conditions</label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                          </div>
+                        </div>
+                </div>
+                <div class="col-md-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+
+            </div>
+                </div>
+
+        </form>
+</body>
+</html>

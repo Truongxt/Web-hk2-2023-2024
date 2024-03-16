@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- Button to Open the Modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#myModal"
+    >
+      Open modal
+    </button>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <ul class="nav nav-tabs" id="myTab">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="tab-dangNhap"
+                  data-toggle="tab"
+                  href="#dangNhap"
+                >
+                  Javascript
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="tab-dangKy"
+                  data-toggle="tab"
+                  href="#dangKy"
+                >
+                  CSS
+                </a>
+              </li>
+            </ul>
+
+            <div class="tab" id="myTabContent">
+              <div class="tab-pane fade collapse" id="dangNhap">
+                <p>
+                  Vui lòng đăng nhập trước khi mua vế để tích lũy điểm, cơ hội
+                  nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy
+                  Cinema
+                </p>
+                <form action="">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="form-control"
+                    />
+                    <input
+                      type="password"
+                      placeholder="Passowrd"
+                      class="form-control"
+                    />
+                    <a href="" class="nav-link p-0">Quên mật khẩu</a>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade show active" id="dangKy">
+                <form action="">
+                  <div class="from-group">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Họ tên" class="form-control ">
+                                </div>
+                            <div class="form-group">
+                                <div class="form-inline">
+                                    <input type="text" placeholder="Số điện thoại" class="form-control col-md-6">
+                                <select name="" id="" class="form-control col-md-6">
+                                        <option value="">Chọn giới tính</option>
+                                        <option value="">Nam</option>
+                                        <option value="">Nữ</option>
+                                </select>   
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                    <div class="form-inline">
+                                        <input type="password" placeholder="Mật khẩu" class="form-control col-md-6">
+                                        <input type="password" placeholder="Xác nhận mật khẩu" class="form-control col-md-6">
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-inline">
+                                    <select name="" id="" class="col-md-6 form-control">
+                                        <option value="">Chọn thành phố</option>
+                                   </select>
+                                   <select name="" id="" class="col-md-6 form-control">
+                                    <option value="">Quận</option>
+                                </select>
+
+                                </div>
+                            </div>
+                        <div class="form-group">
+                                <input type="text" placeholder="Địa chỉ" class="form-control">
+                             </div>
+                        <div class="form-group">
+                            <div class="form-inline">
+                                <input type="date" placeholder="Chọn ngày (dd/mm/yyyy)" class="form-control">
+                            </div>
+                        <div>
+                         <div class="form-group">
+                            <div class="form-inline">
+                                <img src="GetCaptcha.jpg" alt="" class="col-4">
+                                <input type="text" placeholder="Nhập mã capcha" class="col-8">
+                            </div>
+                                
+                        <div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
